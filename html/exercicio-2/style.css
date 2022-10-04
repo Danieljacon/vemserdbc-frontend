@@ -39,3 +39,30 @@ header, nav, ul, li {
 .menu li a {
     color: white;
 }
+
+.logo-image {
+    display: block;
+    margin: 0 auto;
+    padding: 40px 0 20px 0;
+}
+
+.main-content aside, article  {
+    display: inline-block;
+}
+
+.main-content {
+    width: 100%;
+}
+
+.main-content article {
+    width: 70%;
+    background-color: white;
+}
+
+.main-content aside {
+    width: 30%;
+    background-color: #f2cd36;
+    margin-left: -1%;
+}
+
+
