@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Roboto;
+}
+
+body {
+    background-color: #da6603;
+}
+
+header, nav, ul, li {
+    display: inline-block;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.header-container {
+    background-color: #fdbd06;
+    width: 100%;
+}
+
+.header-container nav {
+    width: 100%;
+    text-align: center;
+}
+
+.menu li {
+    padding: 20px;
+    border-right: 1px solid #da6603;
+    text-transform: uppercase;
+    min-width: 110px;
+}
+
+.menu li a {
+    color: white;
+}
