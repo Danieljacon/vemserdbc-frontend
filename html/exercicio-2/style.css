@@ -1,68 +1,131 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: Roboto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Roboto;
+  letter-spacing: .8px;
 }
 
 body {
-    background-color: #da6603;
+  background-color: #da6603;
 }
 
-header, nav, ul, li {
-    display: inline-block;
+header,
+nav,
+ul,
+li {
+  display: inline-block;
+}
+
+.uppercase-aside {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 1000px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .header-container {
-    background-color: #fdbd06;
-    width: 100%;
+  background-color: #fdbd06;
+  width: 100%;
 }
 
 .header-container nav {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 .menu li {
-    padding: 20px;
-    border-right: 1px solid #da6603;
-    text-transform: uppercase;
-    min-width: 110px;
+  padding: 20px;
+  border-right: 1px solid #da6603;
+  text-transform: uppercase;
+  min-width: 110px;
 }
 
 .menu li a {
-    color: white;
+  color: white;
 }
 
 .logo-image {
-    display: block;
-    margin: 0 auto;
-    padding: 40px 0 20px 0;
-}
-
-.main-content aside, article  {
-    display: inline-block;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 0 20px 0;
 }
 
 .main-content {
-    width: 100%;
+  width: 100%;
+  position: relative;
 }
 
 .main-content article {
-    width: 70%;
-    background-color: white;
+  display: inline-block;
+  background-color: white;
+  width: 700px;
+
+  padding: 30px;
 }
 
 .main-content aside {
-    width: 30%;
-    background-color: #f2cd36;
-    margin-left: -1%;
+  display: inline-block;
+  background-color: #f2cd36;
+  position: absolute;
+  width: 300px;
+
+  padding: 30px;
 }
 
+.title {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
 
+.posted-by {
+    float: right;
+}
+
+.main-content article p {
+    padding: 40px 0;
+}
+
+.main-content article button {
+    border: 0;
+    background-color: #da6603;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.search-aside {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px 2px;
+    margin: 20px 0;
+}
+
+.aliquam-tempus {
+    padding: 15px 0 20px 0;
+}
+
+.categories {
+    width: 100%;
+}
+
+/* categories first li */
+.categories li:first-child {
+    margin-top: 10px;
+}
+
+.categories-opt {
+    font-size: 15px;
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #da6603 ;
+}
