@@ -1,0 +1,25 @@
+/* Section princípal */
+.principal {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-top: 40px;
+}
+
+.noticia {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.noticia-info {
+  width: 227px;
+  height: 150px;
+  background-color: #c4c4c4;
+}
+
+.noticia-texto {
+  font-size: 18px;
+}
+/* Section princípal */
