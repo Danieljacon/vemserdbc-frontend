@@ -1,0 +1,49 @@
+.form-container {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+  margin: 0 auto;
+  width: fit-content;
+
+  text-align: left;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-right: 400px;
+}
+
+.form label {
+    display: block;
+    text-align: left;
+}
+
+.form input, .form select, .form textarea {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.mensagem {
+    margin-bottom: 0 !important;
+}
+
+.button {
+    width: 90px !important;
+    margin-left: 20px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 0;
+    cursor: pointer;
+}
