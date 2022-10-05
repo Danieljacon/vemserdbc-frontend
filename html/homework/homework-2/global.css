@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* Header */
+header {
+  background-color: red;
+  width: 100%;
+}
+
+.header-container {
+  margin: 0 auto;
+  width: fit-content;
+  color: white;
+  padding: 10px 0;
+}
+
+.logo-container {
+  display: inline;
+}
+
+.menu ul,
+.menu li {
+  display: inline-block;
+}
+
+.melhores-alunos {
+  display: inline-block;
+  padding: 20px;
+  background-image: url("./assets/cogumelo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 75px;
+}
+
+.menu {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.menu li {
+  margin: 0 12px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: white;
+}
+/* Header */
+
+/* Footer */
+footer {
+    background-color: red;
+    padding: 20px 80px;
+    color: white;
+}
+
+.footer-menu {
+    margin: 10px 0;
+    text-decoration: underline;
+}
+
+.footer-menu li a {
+    text-decoration: none;
+    color: white;
+}
+/* Footer */

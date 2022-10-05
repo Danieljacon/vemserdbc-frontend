@@ -1,0 +1,57 @@
+/* Home */
+main {
+  width: 100%;
+}
+
+.main-container {
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.main-container > div h2 {
+  text-align: center;
+  margin: 40px 0 20px 0;
+}
+
+.card-cogumelo {
+  margin: 0 auto;
+  width: inherit;
+}
+
+.card-cogumelo span {
+  display: inline-block;
+  padding: 40px 10px;
+  margin: 0 8px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card-cogumelo span img {
+  width: 100px;
+}
+
+.card-cogumelo span p {
+  text-align: center;
+}
+
+.article-container {
+  background-color: #333333;
+  color: white;
+  padding: 20px 160px;
+  margin-top: 40px;
+  border-bottom: 4px solid green;
+}
+
+.article-container p {
+  margin: 12px 0;
+}
+
+.section-1-container {
+  margin: 0 auto;
+  width: fit-content;
+  padding: 20px;
+}
+
+.section-1-container h2 {
+  text-align: center;
+}
