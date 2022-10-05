@@ -18,11 +18,10 @@
   flex-direction: column;
   gap: 9px;
   color: black;
-  transition: var(--main-trasition);
 }
 
 .noticia:hover {
-  transform: scale(1.05);
+
 }
 
 .noticia-info {
@@ -70,11 +69,6 @@
   gap: 10px;
   font-size: 18px;
   color: black;
-  transition: var(--main-trasition);
-}
-
-.noticia-pequena:hover {
-  transform: scale(1.05);
 }
 
 .noticia-pequena > img {

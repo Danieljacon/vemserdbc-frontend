@@ -3,6 +3,7 @@
 :root {
   --black: #1d1e20;
   --grey: #c4c4c4;
+  --grey-200: #2C2C2C;
   --main-trasition: .2s ease-in-out
 }
 
@@ -55,3 +56,14 @@ header img {
 
 }
 /* HEADER */
+
+/* HOVER */
+.hover-effect:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.hover-transiction {
+  transition: var(--main-trasition);
+}
+/* HOVER */
+
