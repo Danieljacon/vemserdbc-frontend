@@ -1,0 +1,40 @@
+.videos {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.video-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.main-video {
+  width: 535px;
+  height: 324px;
+}
+
+.imagem-box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mini-videos {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+}
+
+.imagem {
+    width: 165px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.text-imagem {
+    font-size: 14px;
+}
