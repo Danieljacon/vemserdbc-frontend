@@ -2,7 +2,7 @@
 
 :root {
   --black: #1d1e20;
-
+  --grey: #c4c4c4;
   --main-trasition: .2s ease-in-out
 }
 
@@ -17,9 +17,9 @@
 
 .container {
   width: 100%;
-  max-width: 1366px;
+  max-width: 801px;
   margin: 0 auto;
-  padding: 0 70px;
+  padding: 0 40px;
 }
 
 /* HEADER */
@@ -28,7 +28,7 @@ header {
 }
 
 header img {
-  width: 100px;
+  width: 80px;
 }
 
 .header-content {
