@@ -1,0 +1,17 @@
+.section-sobre-container {
+    width: 100%;
+    text-align: center;
+    padding: 20px 160px;
+}
+
+iframe {
+    margin: 10px 0;
+}
+
+.article-container {
+    text-align: left;
+}
+
+.article-container p {
+    margin: 12px 0;
+}
