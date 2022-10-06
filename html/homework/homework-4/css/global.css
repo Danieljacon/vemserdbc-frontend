@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --black: #1d1e20;
+  --grey: #c4c4c4;
+  --grey-200: #2C2C2C;
+  --main-trasition: .2s ease-in-out
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 801px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* HEADER */
+header {
+  background-color: var(--black);
+}
+
+header img {
+  width: 80px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu > li a {
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    transition: var(--main-trasition);
+}
+
+.menu > li a:hover {
+    color: black;
+    background-color: white;
+
+}
+/* HEADER */
+
+/* HOVER */
+.hover-effect:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}
+.hover-transiction {
+  transition: var(--main-trasition);
+}
+/* HOVER */
+
