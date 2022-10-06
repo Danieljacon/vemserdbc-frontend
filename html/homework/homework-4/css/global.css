@@ -43,6 +43,14 @@ header img {
     display: flex;
 }
 
+.menu > li:nth-child(2) a {
+  color: grey;
+}
+
+.menu > li:nth-child(2) a:hover {
+  background-color: grey;
+}
+
 .menu > li a {
     color: white;
     padding: 15px;
