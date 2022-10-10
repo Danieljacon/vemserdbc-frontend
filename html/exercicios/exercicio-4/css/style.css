@@ -1,0 +1,90 @@
+.container {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  max-width: 609px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.card-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white);
+}
+
+.card-perfil-image {
+  border-radius: 50%;
+  border: 6px solid var(--white);
+  width: 164px;
+  height: 164px;
+  margin-top: -82px;
+}
+
+.card-name {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--neutral-800);
+}
+
+.card-description {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 82.6px;
+  margin-bottom: 11px;
+  color: var(--neutral-600);
+}
+
+.icons {
+  display: flex;
+  gap: 9.22px;
+}
+
+.icons img {
+  width: 31.61px;
+  height: 31.61px;
+}
+
+.menu {
+  width: 100%;
+  max-width: 397px;
+  margin-top: 30px;
+}
+
+.menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 9px 9px 9px 24px;
+    border-radius: 50px;
+    transition: .2s ease-in-out;
+    color: var(--neutral-800);
+}
+
+.menu li a:hover {
+    background-color: var(--neutral-800);
+    color: white;
+    cursor: pointer;
+}
+
+.menu li span {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 700;
+  gap: 10px;
+}
+
+.menu li span img {
+  width: 21px;
+  height: 28px;
+}

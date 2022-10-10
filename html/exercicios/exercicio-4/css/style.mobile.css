@@ -1,0 +1,17 @@
+.container {
+    padding: 0;
+}
+
+.card-image {
+    height: 120px;
+}
+
+.card-infos {
+    padding: 0 14px;
+}
+
+.card-description {
+    padding: 0;
+    font-size: 1rem;
+    margin: 12px 0;
+}

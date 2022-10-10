@@ -1,0 +1,33 @@
+header {
+  margin-top: 20px;
+}
+
+header nav {
+  border-radius: 50px;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+.dropdown-item,
+.navbar-brand {
+  color: #3c1e81;
+}
+.btn-buy {
+  text-transform: uppercase;
+  padding: 5px 30px;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right,
+    #c421b6,
+    #ae1eae,
+    #981ba6,
+    #83189d,
+    #6d1594
+  );
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
