@@ -29,6 +29,10 @@ li {
   color: var(--blue) !important;
 }
 
+.text-green {
+  color: var(--green) !important;
+}
+
 .hover-size:hover {
     transform: scale(1.06);
     transition: .2s ease-in-out;
