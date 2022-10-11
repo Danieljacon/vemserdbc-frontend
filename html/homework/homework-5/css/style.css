@@ -1,5 +1,12 @@
 body {
-  background-color: var(--black);
+
+  background-color: var(--white);
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: var(--black);
 }
 
 .bg-linear-gradient {
