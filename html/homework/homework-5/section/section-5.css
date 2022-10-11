@@ -1,12 +1,12 @@
 .section-5 {
   margin-top: -1px;
   background-image: url(../assets/image/s5-bg.png);
-  padding-bottom: 120px;
+  padding-bottom: 100px;
   background-position: bottom;
 }
 
 .section-5 .section-5-container {
-  padding: 60px 20px;
+  padding: 60px 20px 40px 20px;
 }
 
 .section-5 .section-5-container h3 {
