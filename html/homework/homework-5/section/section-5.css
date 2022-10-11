@@ -1,0 +1,57 @@
+.section-5 {
+  margin-top: -1px;
+  background-image: url(../assets/image/s5-bg.png);
+  padding-bottom: 120px;
+  background-position: bottom;
+}
+
+.section-5 .section-5-container {
+  padding: 60px 20px;
+}
+
+.section-5 .section-5-container h3 {
+  font-size: 2.25rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.section-5 .section-5-container .card {
+  padding: 54px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white);
+  margin-top: 20px;
+}
+
+.section-5 .section-5-container .card .card-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section-5 .section-5-container .card .card-date {
+  font-size: 1.15rem !important;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.section-5 .section-5-container .card .card-comparation {
+  font-size: 1.3rem;
+  font-weight: 700;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.section-5 .section-5-container .card .card-cap {
+  font-size: 1.15rem;
+  font-weight: 700;
+  opacity: 0.8;
+}
+
+.section-5 .section-5-container .card .bold {
+  opacity: 1 !important;
+  font-weight: 900;
+}

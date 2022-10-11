@@ -19,10 +19,15 @@ li {
   --blue: #2278d4;
   --blue-50: #00B4EC;
   --white: white;
+  --red: #e20613;
 }
 
 .bg-blue {
   background-color: var(--blue) !important;
+}
+
+.bg-red {
+  background-color: var(--red);
 }
 
 .text-blue {
