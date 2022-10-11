@@ -3,8 +3,8 @@ body {
 }
 
 .bg-linear-gradient {
-    position: absolute;
-    z-index: -1;
+  position: absolute;
+  z-index: -1;
 }
 
 .menu {
@@ -26,4 +26,49 @@ body {
 .logo {
   width: 155px;
   height: 25px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+footer .logo {
+  scale: 1.3;
+}
+
+footer .redes-sociais {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+footer .redes-sociais a {
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--dark);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > small {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+footer > span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  color: var(--white);
+  opacity: .4;
+  margin-top: 5px;
 }
