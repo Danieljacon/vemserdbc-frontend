@@ -14,11 +14,19 @@ li {
 
 :root {
   --green: #22a75d;
-  --black: #1A1E29;
-  --dark: #171b29;
+  --black: #0f1320;
+  --dark: #171B29;
   --blue: #2278d4;
   --blue-50: #00B4EC;
   --white: white;
+}
+
+.bg-blue {
+  background-color: var(--blue) !important;
+}
+
+.text-blue {
+  color: var(--blue) !important;
 }
 
 .hover-size:hover {

@@ -1,0 +1,36 @@
+.section-3 .s3-bg {
+  margin-top: 58px;
+  margin-bottom: -7px;
+}
+
+.section-3 .section-3-container {
+  padding: 67px 20px;
+  background: var(--white);
+  border-radius: 0 180px 0 0;
+}
+
+.section-3 .section-3-container h3 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  max-width: 260px;
+}
+
+.section-3 .section-3-container h4 {
+  font-size: 1rem;
+  color: var(--black);
+  opacity: 0.6;
+  margin: 30px 0 20px 0;
+}
+
+.section-3 .section-3-container > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-3 .section-3-container p {
+  font-weight: 400;
+  opacity: .6;
+}
+
+
