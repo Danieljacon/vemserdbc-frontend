@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-weight: normal;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input,
+textarea {
+  border: none;
+  outline: none;
+  overflow: auto;
+}
+
+.header {
+  background-color: white;
+  transition: background-color 0.5s ease 0s, box-shadow 0.5s ease 0s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header:hover {
+  box-shadow: rgba(9, 30, 66, 0.15) 0px 0.5rem 1rem 0px;
+}
+.header .header-container {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.header .header-container .menu {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.header .header-container .menu li {
+  padding: 20px 16px 16px 16px;
+}
+.header .header-container .menu li a {
+  display: flex;
+  align-items: center;
+}
+.header .header-container .menu li a:hover {
+  color: #0065ff;
+}
+.header .header-container .menu li a:hover i::before {
+  color: #0065ff;
+}
+.header .header-container .menu li a i {
+  font-size: 11px;
+  margin-left: 4px;
+}
+.header .header-container .menu .logo img {
+  width: 109.688px;
+  height: 22px;
+}
+.header .header-container .login {
+  display: flex;
+  align-items: center;
+}
+.header .header-container .login li {
+  padding: 17px 28px;
+  font-size: 1.2rem;
+}
+.header .header-container .login .register {
+  display: flex;
+  align-items: center;
+  min-width: 208px;
+  height: 100%;
+  background-color: #0065ff;
+}
+.header .header-container .login .register:hover {
+  background-color: #0052cc;
+}
+.header .header-container .login .register a {
+  color: white;
+}

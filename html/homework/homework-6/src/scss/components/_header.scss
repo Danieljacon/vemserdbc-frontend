@@ -1,0 +1,76 @@
+.header {
+  background-color: $white;
+  transition: background-color 0.5s ease 0s, box-shadow 0.5s ease 0s;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  &:hover {
+    box-shadow: rgb(9 30 66 / 15%) 0px 0.5rem 1rem 0px;
+  }
+
+  .header-container {
+    width: 100%;
+    max-width: $max-container-width-header;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .menu {
+      @include align-items-center;
+      font-weight: 600;
+
+      li {
+        padding: 20px 16px 16px 16px;
+
+        a {
+          @include align-items-center;
+
+          &:hover {
+            color: $color-b300;
+
+            i::before {
+              color: $color-b300;
+            }
+          }
+
+          i {
+            font-size: 11px;
+            margin-left: 4px;
+          }
+        }
+      }
+
+      .logo {
+        img {
+          width: 109.688px;
+          height: 22px;
+        }
+      }
+    }
+
+    .login {
+      @include align-items-center;
+
+      li {
+        padding: 17px 28px;
+        font-size: 1.2rem;
+      }
+
+      .register {
+        @include align-items-center;
+        min-width: 208px;
+        height: 100%;
+        background-color: $color-b300;
+
+        &:hover {
+          background-color: $color-b400;
+        }
+
+        a {
+          color: $white;
+        }
+      }
+    }
+  }
+}
