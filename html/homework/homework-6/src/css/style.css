@@ -15,6 +15,7 @@ html {
 body {
   font-weight: normal;
   font-family: "Nunito Sans", sans-serif;
+  background-color: #eeebff;
 }
 
 ul {
@@ -23,6 +24,7 @@ ul {
 
 a {
   text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 img {
@@ -31,10 +33,18 @@ img {
 }
 
 input,
-textarea {
+textarea,
+button {
   border: none;
   outline: none;
   overflow: auto;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .header {
@@ -100,4 +110,98 @@ textarea {
 }
 .header .header-container .login .register a {
   color: white;
+}
+
+.input {
+  padding: 11.8px 12px 12.8px 12px;
+  background-color: transparent;
+  border: 1px solid #dfe1e6;
+  font-size: 1rem;
+  border-radius: 0.3rem;
+  max-width: 376px;
+  transition: all 250ms ease-out 0s;
+}
+.input:focus {
+  outline: none;
+  outline: 2px solid #091E42;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0065ff;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 250ms ease-out 0s;
+  padding: 0.7rem 1rem 0.7rem 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+.button:hover {
+  background-color: #0747a6;
+}
+
+.section-1 {
+  margin-top: 126px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 2px solid #dfe1e6;
+  padding-bottom: 70px;
+}
+.section-1 .col-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 633px;
+  padding: 0 16px;
+}
+.section-1 .col-1 h1 {
+  font-size: 3rem;
+  line-height: 1.25;
+  color: #091E42;
+  margin-bottom: 8px;
+}
+.section-1 .col-1 p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.section-1 .col-1 span {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: 375px 1fr;
+  column-gap: 16px;
+}
+.section-1 .col-1 .assita {
+  margin-top: 16px;
+  display: flex;
+  width: 100%;
+  color: #0052cc;
+  letter-spacing: 0.07rem;
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 11.2px 16px 12.8px 16px;
+}
+.section-1 .col-1 .assita img {
+  width: 24px;
+  margin-left: 10px;
+}
+.section-1 .col-2 {
+  display: flex;
+  align-items: center;
+  padding: 0 18px;
+}
+.section-1 .col-2 img {
+  width: 100%;
+  max-width: 368px;
+  max-height: 450.391px;
+}
+
+.section-2 {
+  display: flex;
+  padding: 1rem 0;
 }

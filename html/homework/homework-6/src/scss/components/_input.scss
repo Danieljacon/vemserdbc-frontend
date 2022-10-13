@@ -1,0 +1,14 @@
+.input {
+    padding: 11.8px 12px 12.800px 12px;
+    background-color: transparent;
+    border: 1px solid $color-g200;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    max-width: 376px;
+    transition: all 250ms ease-out 0s;
+
+    &:focus {
+        outline: none;
+        outline: 2px solid $color-n900;
+    }
+}
