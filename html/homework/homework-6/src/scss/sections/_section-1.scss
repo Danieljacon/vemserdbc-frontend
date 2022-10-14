@@ -4,8 +4,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  border-bottom: 2px solid $color-g200;
-  padding-bottom: 70px;
+  @include border-bottom-padding;
 
   .col-1 {
     @include align-items-center;

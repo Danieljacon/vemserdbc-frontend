@@ -1,4 +1,44 @@
 .section-2 {
+  display: flex;
+  padding: 1rem 0;
+  @include border-bottom-padding;
+
+
+  .card {
     display: flex;
-    padding: 1rem 0;
+
+    .card-image {
+      display: block;
+      flex: 0 0 auto;
+      padding: 16px;
+      width: 103px;
+    }
+
+    .card-texts {
+      padding: 16px;
+      height: 241px;
+
+      .card-texts-flex {
+        width: 100%;
+        max-width: 253px;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        h3 {
+          font-size: 1.38rem;
+          font-weight: 700;
+          margin-bottom: 10px;
+          opacity: .9;
+        }
+
+        p {
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
 }

@@ -13,6 +13,8 @@
     cursor: pointer;
     border-radius: 0.3rem;
 
+    width: fit-content;
+
     &:hover {
         background-color: $color-b500;
     }

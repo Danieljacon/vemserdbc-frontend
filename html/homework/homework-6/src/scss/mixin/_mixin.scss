@@ -1,4 +1,9 @@
 @mixin align-items-center {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+@mixin border-bottom-padding {
+  border-bottom: 2px solid $color-g200;
+  padding-bottom: 70px;
 }
