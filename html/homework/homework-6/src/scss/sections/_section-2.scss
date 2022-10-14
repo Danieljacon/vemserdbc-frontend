@@ -3,7 +3,6 @@
   padding: 1rem 0;
   @include border-bottom-padding;
 
-
   .card {
     display: flex;
 
@@ -30,7 +29,7 @@
           font-size: 1.38rem;
           font-weight: 700;
           margin-bottom: 10px;
-          opacity: .9;
+          color: $color-n900;
         }
 
         p {
