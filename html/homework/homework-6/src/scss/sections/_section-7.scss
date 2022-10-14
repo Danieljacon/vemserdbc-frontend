@@ -1,0 +1,18 @@
+.section-7 {
+  @include align-items-center;
+  justify-content: center;
+  margin-top: 80px;
+  padding-bottom: 16px;
+
+  p {
+    font-size: 1.25rem;
+    color: $color-n900;
+    margin-right: 8px;
+  }
+
+  .logo-stores {
+    width: 157px;
+    height: 46px;
+    margin: 0 8px;
+  }
+}
