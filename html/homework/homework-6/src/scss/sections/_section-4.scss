@@ -1,0 +1,69 @@
+.section-4 {
+  margin-top: 30px;
+
+  .text-no-photo {
+    width: 50%;
+    padding-bottom: 45px;
+
+    h2 {
+      font-size: 2.25rem;
+      line-height: 1.33333;
+      color: $color-n900;
+      font-weight: 700;
+      letter-spacing: 0.01rem;
+    }
+
+    p {
+      margin-top: 8px;
+      font-size: 1.25rem;
+    }
+  }
+
+  .card {
+    margin-bottom: 64px;
+    display: flex;
+
+    .image {
+      width: 41.6667%;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .text {
+      width: 58.3333%;
+      padding: 1rem;
+      color: $color-n900;
+
+      .mini-title {
+        font-size: 1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+      }
+
+      h2 {
+        font-size: 2.25rem;
+        color: $color-n900;
+        padding-bottom: 16px;
+        margin-bottom: 8px;
+      }
+
+      .paragraph {
+        font-size: 1.25rem;
+        color: $color-n900;
+        font-weight: 400;
+        line-height: 1.5;
+        opacity: 0.9;
+        margin-bottom: 1.5rem;
+      }
+
+      a {
+        font-size: 1.43rem;
+        font-weight: 700;
+        opacity: 0.9;
+      }
+    }
+  }
+}
