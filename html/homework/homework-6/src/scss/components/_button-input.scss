@@ -1,0 +1,21 @@
+.button-input {
+    @include align-items-center;
+    justify-content: center;
+
+    background-color: $white;
+    border: none;
+    color: $color-n900;
+    font-weight: 500;
+    font-size: 1rem;
+
+    transition: all 250ms ease-out 0s;
+    padding: 0.85rem 1.1rem 0.85rem 1rem;
+    cursor: pointer;
+    border-radius: 0.3rem;
+
+    width: fit-content;
+
+    &:hover {
+        background-color: $color-g300;
+    }
+}

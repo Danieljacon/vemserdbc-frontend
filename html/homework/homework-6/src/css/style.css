@@ -147,6 +147,25 @@ button {
   background-color: #0747a6;
 }
 
+.button-input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+  color: #091E42;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 250ms ease-out 0s;
+  padding: 0.85rem 1.1rem 0.85rem 1rem;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  width: fit-content;
+}
+.button-input:hover {
+  background-color: rgb(209, 240, 255);
+}
+
 .section-1 {
   margin-top: 126px;
   display: flex;
@@ -341,7 +360,7 @@ button {
   background-color: #e6fcff;
 }
 .section-5 .container {
-  padding: 80px 165px 180px 165px;
+  padding: 80px 165px 180px;
 }
 .section-5 .container > div {
   position: relative;
@@ -378,4 +397,32 @@ button {
   max-height: 66px;
   height: auto;
   width: auto;
+}
+
+.section-6 {
+  margin-top: -90px;
+  width: 100%;
+  background: linear-gradient(rgb(64, 50, 148), rgb(76, 154, 255)) no-repeat;
+  border-radius: 0.5rem;
+  padding: 24px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.section-6 h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.75;
+  color: white;
+  font-weight: 500;
+}
+.section-6 > form {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.section-6 > form .input {
+  background-color: white;
+  min-width: 375px;
 }
