@@ -335,3 +335,47 @@ button {
   font-weight: 700;
   opacity: 0.9;
 }
+
+.section-5 {
+  width: 100%;
+  background-color: #e6fcff;
+}
+.section-5 .container {
+  padding: 80px 165px 180px 165px;
+}
+.section-5 .container > div {
+  position: relative;
+}
+.section-5 .container > div img {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: -52px;
+}
+.section-5 .container > div h2 {
+  font-size: 2.25rem;
+  line-height: 1.34;
+  position: relative;
+  font-weight: 500;
+  color: #091E42;
+}
+.section-5 .container > div > div {
+  margin-top: 20px;
+  position: relative;
+}
+.section-5 .container > div > div .mini-text {
+  display: flex;
+  gap: 80px;
+  color: #344563;
+}
+.section-5 .container > div > div .ebay-logo {
+  position: absolute;
+  right: 140px;
+  top: 0;
+}
+.section-5 .container > div > div .ebay-logo img {
+  max-width: 220px;
+  max-height: 66px;
+  height: auto;
+  width: auto;
+}
