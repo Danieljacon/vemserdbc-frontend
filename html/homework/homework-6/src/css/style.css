@@ -166,6 +166,112 @@ button {
   background-color: rgb(209, 240, 255);
 }
 
+.footer {
+  background-color: #172B4D;
+}
+.footer .row-1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 16px 0;
+}
+.footer .row-1 .logo {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+  gap: 1rem;
+}
+.footer .row-1 .logo img {
+  max-width: 125px;
+}
+.footer .row-1 .logo a {
+  padding: 0;
+  padding-bottom: 16px;
+}
+.footer .row-1 a {
+  padding: 16px;
+}
+.footer .row-1 a h3 {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  margin-bottom: 8px;
+}
+.footer .row-1 a p {
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-size-adjust: 100%;
+}
+.footer .row-1 a:hover {
+  background-color: #42526E;
+}
+.footer .line {
+  border-bottom: 1px solid #7A869A;
+  max-width: 1322px;
+  margin: 0 auto;
+}
+.footer .row-2 {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .row-2 .language {
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+.footer .row-2 .language .input {
+  border: none;
+  padding: 0;
+  margin: 0 5px;
+  max-width: 126px;
+  font-weight: 500;
+}
+.footer .row-2 .language i {
+  display: flex;
+  align-items: center;
+}
+.footer .row-2 .language i img {
+  width: 20px;
+  height: 20px;
+}
+.footer .row-2 .copyright {
+  margin-right: 70px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.footer .row-2 .copyright a {
+  font-size: 0.75rem;
+}
+.footer .row-2 .social {
+  width: 250px;
+  display: grid;
+  grid-template-columns: repeat(5, 24px);
+  justify-content: space-between;
+}
+.footer .row-2 .social a {
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: rgb(23, 43, 77);
+  border-radius: 50%;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  height: 24px;
+  width: 24px;
+}
+.footer .row-2 .social a img {
+  height: 60%;
+  transition: all 0.15s ease 0s;
+  width: 60%;
+  margin: auto !important;
+}
+
+footer * {
+  color: white;
+}
+
 .section-1 {
   margin-top: 126px;
   display: flex;
